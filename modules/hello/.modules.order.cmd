@@ -1,0 +1,1 @@
+cmd_/home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/modules.order := {   echo /home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/khello.ko; :; } | awk '!x[$$0]++' - > /home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/modules.order

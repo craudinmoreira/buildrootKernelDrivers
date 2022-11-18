@@ -1,0 +1,1 @@
+cmd_/home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/Module.symvers := sed 's/\.ko$$/\.o/' /home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/modules.order | scripts/mod/modpost -m -a  -o /home/claudio/linuxdistro/buildroot-2022.02.5/modules/hello/Module.symvers -e -i Module.symvers   -T -
